@@ -48,4 +48,21 @@ This means your terminal is not inside the project folder. Run this command firs
 cd "C:\Users\HP\.gemini\antigravity\scratch\projects\kritik-portfolio"
 ```
 
-Then try the git commands again.
+
+## How to Update Your Site
+Whenever you make changes to your code (e.g., changing text, images, or styles), run these 3 commands in your terminal to update the live site:
+
+1.  **Stage your changes:**
+    ```bash
+    git add .
+    ```
+2.  **Commit your changes** (replace "Updated content" with a short description):
+    ```bash
+    git commit -m "Updated content"
+    ```
+3.  **Push to GitHub:**
+    ```bash
+    git push
+    ```
+
+*After running `git push`, wait 1-2 minutes and update your live website.*
